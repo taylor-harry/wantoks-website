@@ -1,9 +1,9 @@
 ---
-templateKey: "about-page"
-path: /about
-title: Our Community
-image: /img/png_kids.jpg
-heading: Who we are
+templateKey: "resource-page"
+path: /resources
+title: Resources
+image: /img/pauline2.jpg
+heading: Resources
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

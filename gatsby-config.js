@@ -2,11 +2,16 @@ module.exports = {
   siteMetadata: {
     title: 'Canterbury PNG Wantoks Community Inc',
     description:
-      'This website is that of the Canterbury PNG Wantoks Community Inc based in Christchurch, New Zealand.',
+      'This website is that of the Canterbury PNG Wantoks Community Inc based in New Zealand.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        indentedSyntax: true
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
