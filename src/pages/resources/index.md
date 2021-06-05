@@ -5,24 +5,30 @@ title: Resources
 image: /img/pauline2.jpg
 heading: Resources
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
 intro:
   blurbs:
-    - image: /img/heart.png
+    - title: Working for Families - IRD
+      image: /img/heart.png
       text: >
-        Having a sense of community embraces spirit, character, image and pride and is a vital element of a healthy community. It is a feeling that people within the community matter to one another with a shared faith that their needs will be met through commitment and togetherness. Being a part of a community can make us feel as though we are a part of something greater than ourselves.
-    - image: /img/puzzle.png
+        Working for Families Tax Credits are payments for families with dependent children aged 18 and under. The payments are to help you raise your family. Entitlements are based on your yearly family income and family circumstances.
+        Working for Families is not child support. Child support is paid by parents who do not live with their children or who share care with someone else.
+      link: https://www.ird.govt.nz/working-for-families
+    - title: Māori & Pasifika Trades Training Scholarships
+      image: /img/puzzle.png
       text: >
-        A real community, however, exists only when its members interact in a meaningful way that deepens their understanding of each other and leads to learning. Many equate learning with the acquisition of facts and skills by students; in a community, the learners—including faculty—are enriched by collective meaning-making, mentorship, encouragement, and an understanding of the perspectives and unique qualities of an increasingly diverse membership.
-    - image: /img/papua-new-guinea.png
+        Build an awesome career – even if you hated school. Having practical skills under your belt earns you cash, gives you confidence and lets you help your whānau and community. Even better, Māori and Pasifika can train for free – no strings attached.
+      link: https://www.maoripasifikatrades.co.nz/trainees/
+    - title: Accommodation Supplement - MSD
+      image: /img/papua-new-guinea.png
       text: >
-        For Pasifika people in New Zealand, research shows that the stronger our cultural identity, the stronger our wellbeing. If we embrace and strengthen our cultural identity, we strengthen wellbeing and have a happy life. Learning more about your background gives you a better understanding of why you think, feel or act in certain ways.
-    - image: /img/talking.png
+        The Accommodation Supplement is a type of financial assistance available from Work and Income to help with the costs of accommodation. It is paid in addition to a main benefit (like Jobseeker Support or the Supported Living Payment), but you can also receive it while you are working.
+      link: https://www.workandincome.govt.nz/products/a-z-benefits/accommodation-supplement.html
+    - title: Māori & Pacific Childcare Scholarship - Ara
+      image: /img/talking.png
       text: >
-        When the native language is not maintained, important links to family and other community members may be lost. By encouraging native language use, parents can prepare the child to interact with the native language community, both in the New Zealand and in Papua New Guinea.
+        Assist fully enrolled Māori and Pacific students while their programme of study is in progress with the unsubsidised portion of their childcare costs at any licensed childcare centre or facility.
+      link: https://www.ara.ac.nz/student-services/supporting-your-study/scholarships/maori-pacific-childcare-scholarship/
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

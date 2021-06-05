@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+import FeaturesResource from '../components/FeaturesResource'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ResourcePageTemplate = ({
@@ -47,29 +47,7 @@ export const ResourcePageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-              
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
-                      </article>
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
-                    </article>
-                  </div>
-                </div>
-              </div>
+              <FeaturesResource gridItems={intro.blurbs} />
             </div>
           </div>
         </div>
@@ -138,6 +116,7 @@ export const ResourcePageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -146,6 +125,7 @@ export const ResourcePageQuery = graphql`
               }
             }
             text
+            link
           }
           heading
           description

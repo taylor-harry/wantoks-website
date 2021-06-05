@@ -2,7 +2,7 @@
 templateKey: "committee-page"
 path: /committee
 title: Our Committee
-image: /img/png_kids.jpg
+image: /img/sculptures.jpg
 intro:
   blurbs:
     - image: /img/taviri.jpg

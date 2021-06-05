@@ -5,24 +5,21 @@ title: Our Community
 image: /img/png_kids.jpg
 heading: Who we are
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 intro:
   blurbs:
     - image: /img/heart.png
       text: >
-        Having a sense of community embraces spirit, character, image and pride and is a vital element of a healthy community. It is a feeling that people within the community matter to one another with a shared faith that their needs will be met through commitment and togetherness. Being a part of a community can make us feel as though we are a part of something greater than ourselves.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - image: /img/puzzle.png
       text: >
-        A real community, however, exists only when its members interact in a meaningful way that deepens their understanding of each other and leads to learning. Many equate learning with the acquisition of facts and skills by students; in a community, the learners—including faculty—are enriched by collective meaning-making, mentorship, encouragement, and an understanding of the perspectives and unique qualities of an increasingly diverse membership.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - image: /img/papua-new-guinea.png
       text: >
-        For Pasifika people in New Zealand, research shows that the stronger our cultural identity, the stronger our wellbeing. If we embrace and strengthen our cultural identity, we strengthen wellbeing and have a happy life. Learning more about your background gives you a better understanding of why you think, feel or act in certain ways.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - image: /img/talking.png
       text: >
-        When the native language is not maintained, important links to family and other community members may be lost. By encouraging native language use, parents can prepare the child to interact with the native language community, both in the New Zealand and in Papua New Guinea.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -30,19 +27,16 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Ou community
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Encouraging STEM
     image: /koi.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Donating food
     image: /img/giving.jpg
   image3:
-    alt: Coffee beans
+    alt: cultural presentation
     image: /img/pauline.jpg
 ---
