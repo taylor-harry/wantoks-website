@@ -40,7 +40,11 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
+              Feel free to contact us at <a href="mailto: canterbury.wantoks@gmail.com" >canterbury.wantoks@gmail.com</a> or use the form below.
+              <br />
+              <br />
               <form
+                style={{ borderWidth: `1px`, borderStyle: `solid`, padding: `10px`, borderRadius: `5px`, borderColor: `lightgray` }}
                 name="contact"
                 method="post"
                 action="/contact/thanks/"
@@ -101,7 +105,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button className="button is-link" type="submit" style={{ backgroundColor: '#f40' }}>
                     Send
                   </button>
                 </div>

@@ -2,6 +2,9 @@
 templateKey: "committee-page"
 path: /committee
 title: Our Committee
+heading: Our executive team
+description: >-
+  It’s our people who make us what we are. Meet the team that leads our community.
 image: /img/sculptures.jpg
 intro:
   blurbs:
@@ -9,35 +12,34 @@ intro:
       header: >
         Chairman
       text: >
-        MR TAVIRI ONO
-    - image: /img/martin.jpg
-      header: >
-        Vice Chairman
-      text: >
-        MR MARTIN YEKI
-    - image: /img/hela.jpg
-      header: >
-        Secretary
-      text: >
-        MS HELA KEWA
-    - image: /img/gezeng.jpg
-      header: >
-        Assistant Secretary
-      text: >
-        MS GEZENG YEKI
+        Mr Taviri Ono
     - image: /img/jenny.jpg
       header: >
         Treasurer
       text: >
-        MRS JENNY JENKINS
+        Mrs Jenny Jenkins
+    - image: /img/gezeng.jpg
+      header: >
+        Secretary
+      text: >
+         Ms Gezeng Yeki
+    - image: /img/martin.jpg
+      header: >
+        Vice Chairman
+      text: >
+        Mr Martin Yeki
     - image: /img/dikoi_headshot.jpg
       header: >
         Assistant Treasurer
       text: >
-        MRS DIKOI TAYLOR
+        Mrs Dikoi Taylor
+    - image: /img/vacant-member.png
+      header: >
+        Assistant Secretary
+      text: >
+       --
+    - header: >
+        Sub Committee members
+      text: >
+        Mr Jeff Ingi
 ---
-
-### Sub Committee members:
-
-MR OSHEN YEKI </br>
-MR RICHARD NANGE

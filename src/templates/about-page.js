@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import FeatureGrid from '../components/Features'
 
 export const AboutPageTemplate = ({
   image,
@@ -17,9 +17,8 @@ export const AboutPageTemplate = ({
     <div
       className="full-width-image-container margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
       }}
     >
       <h2
@@ -30,7 +29,7 @@ export const AboutPageTemplate = ({
           color: 'white',
           padding: '1rem',
           opacity: 0.8,
-          
+
         }}
       >
         {title}
@@ -40,15 +39,57 @@ export const AboutPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
+            <div className="column is-10 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+              <p style={{ fontSize: `18px` }}>Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  </p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <img src="/img/values_three.png" alt="Our values" style={{ width: `100%`, height: `auto`, display: `block`, marginLeft: `auto`, marginRight: `auto`, maxWidth: `500px` }}></img>
+              <br />
+              <br />
+              <br />
+              <br />
+              <p style={{ fontSize: `18px` }}>A group of volunteers make up the <a style={{ color: `#f40` }} href="/committee">Executive Team</a> to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).</p>
+              <br />
+              <br />
+              <br />
+              <img src='/img/community_meeting.jpg' alt='Community Meeting' style={{ width: `100%`, height: `auto` }}></img>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+
+              <div style={{
+                borderStyle: `solid`,
+                borderWidth: `2px`,
+                borderRadius: `5px`,
+                borderColor: `lightgray`,
+                padding: `15px`,
+                fontSize: `18px`
+              }}>
+                <br />
+                <p>Our goal is to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:</p>
+                <ol>
+                  <li>Share our stories</li>
+                  <li>Teach and pass our culture onto our children, the future generation</li>
+                  <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
+                  <li>And most importantly to stay in touch with each other</li>
+                </ol>
+                <FeatureGrid gridItems={intro.blurbs} />
+              </div>
+              <br />
+              <br />
+              <p style={{ fontSize: `18px` }}>Olgeta wantoks na poro man na meri (all our friends), feel free to <a style={{ color: `#f40` }} href="/contact">contact us</a> and be part of our bikpela (big) family lon (in) Christchurch, Garden City bilong (of) New Zealand.</p>
+              <br />
+              <br />
             </div>
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-              
+
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
@@ -87,8 +128,6 @@ AboutPageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -147,12 +186,8 @@ export const aboutPageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
         main {
-          heading
-          description
           image1 {
             alt
             image {

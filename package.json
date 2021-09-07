@@ -18,6 +18,7 @@
     "gatsby-remark-copy-linked-files": "^2.10.0",
     "gatsby-remark-images": "^3.11.0",
     "gatsby-remark-images-contentful": "^2.10.0",
+    "gatsby-remark-line-breaks": "^1.0.0",
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-contentful": "^4.6.1",
     "gatsby-source-filesystem": "^2.11.0",

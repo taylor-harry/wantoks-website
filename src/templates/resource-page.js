@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import FeaturesResource from '../components/FeaturesResource'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ResourcePageTemplate = ({
   image,
@@ -17,9 +16,8 @@ export const ResourcePageTemplate = ({
     <div
       className="full-width-image-container margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
       }}
     >
       <h2
@@ -30,7 +28,7 @@ export const ResourcePageTemplate = ({
           color: 'white',
           padding: '1rem',
           opacity: 0.8,
-          
+
         }}
       >
         {title}
@@ -41,8 +39,8 @@ export const ResourcePageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+              <h3 className="has-text-weight-semibold is-size-2" >{heading}</h3>
+              <p style={{ fontSize: `18px` }}>{description}</p>
             </div>
           </div>
           <div className="columns">

@@ -1,9 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -19,9 +17,8 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -49,19 +46,7 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+
       </div>
     </div>
     <section className="section section--gradient">
@@ -70,23 +55,42 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2" style={{ fontSize: `8vw` }}>
                       {heading}
                     </h3>
-                    <p>{description}</p>
+                    <br />
+
+                    <p style={{ fontSize: `18px` }}>The Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  </p>
+                    <br />
+                    <img src='/img/community bbq.jpg' alt='Community BBQ' style={{ width: `400px !important`, height: `auto` }}></img>
+                    <br />
+                    <br />
+                    <p style={{ fontSize: `18px` }}>A group of volunteers make up the Executive Team to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).</p>
+                    <br />
+
+                    <div style={{
+                      borderStyle: `solid`,
+                      borderWidth: `1px`,
+                      borderRadius: `5px`,
+                      borderColor: `#f7d9cc`,
+                      padding: `5px`,
+                      backgroundColor: `#f7d9cc`,
+                      fontSize: `18px`
+                    }}>
+                      <p>Our goals are to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:</p>
+                      <ul>
+                        <li>Share our stories</li>
+                        <li>Teach and pass our culture onto our children, the future generation</li>
+                        <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
+                        <li>And most importantly to stay in touch with each other</li>
+                      </ul>
+                    </div>
+
+
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/about">

@@ -5,21 +5,26 @@ title: Our Community
 image: /img/png_kids.jpg
 heading: Who we are
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Welkam olgeta (welcome everyone)!  
+  Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  
+  A group of volunteers make up the Executive Team to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).  
+  Our goal is to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:
+  1.	Share our stories;
+  2.	Teach and pass our culture onto our children, the future generation;
+  3.	Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food. 
+  4.	And most importantly to stay in touch with each other.  
+  Olgeta wantoks na poro man na meri (all our friends), feel free to contact us and be part of our bikpela (big) family lon (in) Christchurch, Garden City bilong (of) New Zealand.
 intro:
   blurbs:
-    - image: /img/heart.png
+    - image: /img/puzzle_red.png
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - image: /img/puzzle.png
+        COMMUNITY
+    - image: /img/png_map.png
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - image: /img/papua-new-guinea.png
+        CULTURE
+    - image: /img/talking_green.png
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - image: /img/talking.png
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        COMMUNICATION
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -27,9 +32,6 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Ou community
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   image1:
     alt: Encouraging STEM
     image: /koi.jpg
@@ -40,3 +42,12 @@ main:
     alt: cultural presentation
     image: /img/pauline.jpg
 ---
+ Welkam olgeta (welcome everyone)!  
+  Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  
+  A group of volunteers make up the Executive Team to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).  
+  Our goal is to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:
+  1.	Share our stories;
+  2.	Teach and pass our culture onto our children, the future generation;
+  3.	Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food. 
+  4.	And most importantly to stay in touch with each other.  
+  Olgeta wantoks na poro man na meri (all our friends), feel free to contact us and be part of our bikpela (big) family lon (in) Christchurch, Garden City bilong (of) New Zealand.

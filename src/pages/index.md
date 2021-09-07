@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Canterbury PNG Wantoks Community
 image: /img/highlands.jpg
-heading: Welcome to the Canterbury PNG Wantoks Community
+heading: Welkam olgeta!
 subheading: Stap Bung Wantaim
 mainpitch:
   title: Welkam olgeta!
@@ -31,13 +31,5 @@ main:
   heading: Great coffee with no compromises
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+
 ---

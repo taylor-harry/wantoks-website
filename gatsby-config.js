@@ -41,6 +41,9 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-line-breaks`,
+          },
+          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',

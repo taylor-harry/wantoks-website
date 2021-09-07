@@ -5,62 +5,68 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import FeaturesWidget from "../components/FeaturesWidget"
 
-export const CommitteePageTemplate = ({ 
+export const CommitteePageTemplate = ({
   image,
-  title, 
-  content, 
+  title,
+  heading,
+  description,
+  content,
   contentComponent,
-  intro 
+  intro
 }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div className="content">
-    <div
-      className="full-width-image-container margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-      }}
-    >
-      <h2
-        className="has-text-weight-bold is-size-1"
+      <div
+        className="full-width-image-container margin-top-0"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
-          color: 'white',
-          padding: '1rem',
-          opacity: 0.8,
-          
+          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
         }}
       >
-        {title}
-      </h2>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-          </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              
-              <FeaturesWidget gridItems={intro.blurbs} />
-              <PageContent className="content" content={content} />
+        <h2
+          className="has-text-weight-bold is-size-1"
+          style={{
+            boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+            backgroundColor: '#f40',
+            color: 'white',
+            padding: '1rem',
+            opacity: 0.8,
+
+          }}
+        >
+          {title}
+        </h2>
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <h3 className="has-text-weight-semibold is-size-2" >{heading}</h3>
+            <br />
+            <p style={{ fontSize: `18px` }}>{description}</p>
+            <br />
+            <br />
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+
+                <FeaturesWidget gridItems={intro.blurbs} />
+                <PageContent className="content" content={content} />
+              </div>
+
             </div>
-            
           </div>
         </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
   )
 }
 
 CommitteePageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string.isRequired,
+  heading: PropTypes.string,
+  description: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   intro: PropTypes.shape({
@@ -79,6 +85,8 @@ const CommitteePage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        heading={frontmatter.heading}
+        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -104,6 +112,8 @@ export const aboutPageQuery = graphql`
           }
         }
         title
+        heading
+        description
         intro {
           blurbs {
             image {
