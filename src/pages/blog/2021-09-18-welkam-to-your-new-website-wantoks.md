@@ -6,13 +6,15 @@ description: Launching our new website!
 featuredpost: true
 featuredimage: /img/website_laptop.jpg
 ---
-![Wantoks website](/img/website_laptop.jpg "Wantoks website")
+![]()
 
 <!--StartFragment-->
 
 Happy 46th Independence olgeta!  
 
 Even though Covid has once again postponed our big community celebrations, we are still excited to finally launch the new Canterbury Wantoks community website. 
+
+![](/img/website_laptop.jpg)
 
 Our site has been designed to help anyone find information about who we are,what we do and how to get in touch.
 
