@@ -1,11 +1,13 @@
 ---
 templateKey: blog-post
-title: Welkam To Your New Website Wantoks!
+title: Welkam To Our New Website Wantoks!
 date: 2021-09-18T02:10:14.491Z
 description: Launching our new website!
 featuredpost: true
 featuredimage: /img/website_laptop.jpg
 ---
+![Wantoks website](/img/website_laptop.jpg "Wantoks website")
+
 <!--StartFragment-->
 
 Happy 46th Independence olgeta!  
@@ -17,11 +19,5 @@ Our site has been designed to help anyone find information about who we are,what
 We will  be updating our news page on a regular basis so keep checking back. 
 
 Whether it’s upcoming events, community initiatives, spotlights on our talented wantoks or important PNG/Pasifika information resources, you will find it all here!
-
- 
-
- 
-
-
 
 <!--EndFragment-->
