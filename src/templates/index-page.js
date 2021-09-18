@@ -62,9 +62,9 @@ export const IndexPageTemplate = ({
                     </h3>
                     <br />
 
-                    <p style={{ fontSize: `18px` }}>The Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  </p>
+                    <p style={{ fontSize: `18px` }}>The Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in and around Christchurch, in the South Island of Aotearoa New Zealand.  </p>
                     <br />
-                    <img src='/img/community bbq.jpg' alt='Community BBQ' style={{ width: `400px !important`, height: `auto` }}></img>
+                    <img src='/img/community_meeting.jpg' alt='Community Meeting' style={{ width: `100%`, height: `auto` }}></img>
                     <br />
                     <br />
                     <p style={{ fontSize: `18px` }}>A group of volunteers make up the Executive Team to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).</p>
@@ -79,18 +79,17 @@ export const IndexPageTemplate = ({
                       backgroundColor: `#f7d9cc`,
                       fontSize: `18px`
                     }}>
-                      <p>Our goals are to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:</p>
+                      <p>Our goals are to bring together all Papua New Guineans and friends of PNG in Canterbury and the wider region to:</p>
                       <ul>
                         <li>Share our stories</li>
                         <li>Teach and pass our culture onto our children, the future generation</li>
                         <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
-                        <li>And most importantly to stay in touch with each other</li>
+                        <li>Most importantly to stay in touch with each other</li>
                       </ul>
                     </div>
-
-
                   </div>
                 </div>
+                <br />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/about">
@@ -98,6 +97,10 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                <br />
+                <img src='/img/mudman.jpg' alt='Mudman' style={{ width: `100%`, height: `auto` }}></img>
+                <br />
+                <br />
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest news

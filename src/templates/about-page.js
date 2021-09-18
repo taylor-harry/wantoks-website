@@ -41,7 +41,7 @@ export const AboutPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p style={{ fontSize: `18px` }}>Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in Christchurch, South Island of New Zealand.  </p>
+              <p style={{ fontSize: `18px` }}>The Canterbury PNG Wantoks Inc. is made up of Papua New Guinea families living, working and studying in and around Christchurch, in the South Island of Aotearoa New Zealand.</p>
               <br />
               <br />
               <br />
@@ -71,18 +71,46 @@ export const AboutPageTemplate = ({
                 fontSize: `18px`
               }}>
                 <br />
-                <p>Our goal is to bring together all Papua New Guineans and friends of PNG in Canterbury and wider New Zealand to:</p>
-                <ol>
+                <p>Our goal is to bring together all Papua New Guineans and friends of PNG in Canterbury and the wider region to:</p>
+                <ul>
                   <li>Share our stories</li>
                   <li>Teach and pass our culture onto our children, the future generation</li>
                   <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
-                  <li>And most importantly to stay in touch with each other</li>
-                </ol>
+                  <li>Most importantly to stay in touch with each other</li>
+                </ul>
                 <FeatureGrid gridItems={intro.blurbs} />
               </div>
               <br />
               <br />
-              <p style={{ fontSize: `18px` }}>Olgeta wantoks na poro man na meri (all our friends), feel free to <a style={{ color: `#f40` }} href="/contact">contact us</a> and be part of our bikpela (big) family lon (in) Christchurch, Garden City bilong (of) New Zealand.</p>
+              <div  style={{
+                      borderStyle: `solid`,
+                      borderWidth: `1px`,
+                      borderRadius: `5px`,
+                      borderColor: `#f7d9cc`,
+                      padding: `5px`,
+                      backgroundColor: `#f7d9cc`,
+                      fontSize: `18px`
+                    }}>
+              <br />
+              <p style={{ fontSize: `18px` }}>Olgeta wantoks na poro man na meri sapos yu laik, <a style={{ color: `#f40` }} href="/contact">kontakim mipela</a> na joinim bikpela famili lon Christchurch, gaden biktaun bilong New Zealand.</p>
+              <p style={{ fontSize: `18px` }}>To all our friends, feel free to <a style={{ color: `#f40` }} href="/contact">contact us</a> and be part of our big family in Christchurch, the Garden City of New Zealand.</p>
+              <br />
+              </div>
+              <br />
+              <div style={{
+                borderStyle: `solid`,
+                borderWidth: `2px`,
+                borderRadius: `5px`,
+                borderColor: `lightgray`,
+                padding: `15px`,
+                fontSize: `18px`
+              }}>
+                <br />
+              <p style={{ fontSize: `18px` }}>We as a community we acknowledge and thank the tangata whenua - Nga iwi Māori of Aotearoa, and in particular Te iwi o Ngāi Tahu the guardians of Te Waipounamu, whose beautiful lands we come together in.</p>
+              
+              <br />
+              <img src='/img/canterbury_alps.jpg' alt='Canterbury Alps' style={{ width: `100%`, height: `auto` }}></img>
+              </div>
               <br />
               <br />
             </div>
