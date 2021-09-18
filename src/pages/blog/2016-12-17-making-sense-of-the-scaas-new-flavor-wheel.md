@@ -1,10 +1,12 @@
 ---
 templateKey: blog-post
-title: Helping those in need
+title: Helping Each Other Through The Uncertainty Of Covid
 date: 2016-12-17T15:04:10.000Z
+description: Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 featuredpost: false
 featuredimage: /img/help.jpg
-description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 tags:
   - wantoks
   - png
