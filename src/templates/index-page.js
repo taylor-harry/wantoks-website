@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
                     <img src='/img/community_meeting.jpg' alt='Community Meeting' style={{ width: `100%`, height: `auto` }}></img>
                     <br />
                     <br />
-                    <p style={{ fontSize: `18px` }}>A group of volunteers make up the Executive Team to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).</p>
+
                     <br />
 
                     <div style={{
@@ -84,7 +84,7 @@ export const IndexPageTemplate = ({
                         <li>Share our stories</li>
                         <li>Teach and pass our culture onto our children, the future generation</li>
                         <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
-                        <li>Most importantly to stay in touch with each other</li>
+                        <li>To stay in touch with each other</li>
                       </ul>
                     </div>
                   </div>
