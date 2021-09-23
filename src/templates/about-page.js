@@ -51,7 +51,7 @@ export const AboutPageTemplate = ({
               <br />
               <br />
               <br />
-              <p style={{ fontSize: `18px` }}>A group of volunteers make up the <a style={{ color: `#f40` }} href="/committee">Executive Team</a> to help run the association. Executive meetings are held at the end of each month except during festive season (ie: December – January).</p>
+              <p style={{ fontSize: `18px` }}>A group of volunteers make up the <a style={{ color: `#f40` }} href="/committee">Executive Team</a> to help run the association. Executive meetings are held at the end of each month except during the festive season (i.e. December – January).</p>
               <br />
               <br />
               <br />
@@ -76,7 +76,7 @@ export const AboutPageTemplate = ({
                   <li>Share our stories</li>
                   <li>Teach and pass our culture onto our children, the future generation</li>
                   <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
-                  <li>Most importantly to stay in touch with each other</li>
+                  <li>Importantly stay in touch with each other</li>
                 </ul>
                 <FeatureGrid gridItems={intro.blurbs} />
               </div>
@@ -106,7 +106,7 @@ export const AboutPageTemplate = ({
                 fontSize: `18px`
               }}>
                 <br />
-              <p style={{ fontSize: `18px` }}>We as a community we acknowledge and thank the tangata whenua - Nga iwi Māori of Aotearoa, and in particular Te iwi o Ngāi Tahu the guardians of Te Waipounamu, whose beautiful lands we come together in.</p>
+              <p style={{ fontSize: `18px` }}>We as a community acknowledge and thank the tangata whenua - Nga iwi Māori of Aotearoa, and in particular Te iwi o Ngāi Tahu the guardians of Te Waipounamu, whose beautiful lands we come together in.</p>
               
               <br />
               <img src='/img/canterbury_alps.jpg' alt='Canterbury Alps' style={{ width: `100%`, height: `auto` }}></img>
