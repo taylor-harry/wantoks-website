@@ -51,7 +51,11 @@ export const AboutPageTemplate = ({
               <br />
               <br />
               <br />
+<<<<<<< HEAD
               <p style={{ fontSize: `18px` }}>A group of volunteers make up the <a style={{ color: `#f40` }} href="/committee">Executive Team</a> to help run the association. Executive meetings are held at the end of each month except during the festive season (ie: December – January).</p>
+=======
+              <p style={{ fontSize: `18px` }}>A group of volunteers make up the <a style={{ color: `#f40` }} href="/committee">Executive Team</a> to help run the association. Executive meetings are held at the end of each month except during the festive season (i.e. December – January).</p>
+>>>>>>> 949e61b928dcc88fd58e19341705b56d4d6e7e2b
               <br />
               <br />
               <br />
@@ -76,7 +80,11 @@ export const AboutPageTemplate = ({
                   <li>Share our stories</li>
                   <li>Teach and pass our culture onto our children, the future generation</li>
                   <li>Organise and participate in important events such as our Independence Day to showcase our vast culture, language and food</li>
+<<<<<<< HEAD
                   <li>To stay in touch with each other</li>
+=======
+                  <li>Importantly stay in touch with each other</li>
+>>>>>>> 949e61b928dcc88fd58e19341705b56d4d6e7e2b
                 </ul>
                 <FeatureGrid gridItems={intro.blurbs} />
               </div>

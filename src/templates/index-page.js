@@ -66,8 +66,7 @@ export const IndexPageTemplate = ({
                     <br />
                     <img src='/img/community_meeting.jpg' alt='Community Meeting' style={{ width: `100%`, height: `auto` }}></img>
                     <br />
-                    <br />
-
+                   
                     <br />
 
                     <div style={{
